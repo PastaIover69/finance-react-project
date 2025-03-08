@@ -11,7 +11,8 @@ const buttonCSS = {
     outline: 'unset',
     border: 'none',
     cursor: 'pointer',
-    fontSize: '20px'
+    fontSize: '20px',
+    transition: 'all 0.3s ease',
 }
 
 export default function Head() {
