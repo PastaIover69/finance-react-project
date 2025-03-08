@@ -3,12 +3,15 @@ import css from '../../styles/comps/form.css'
 
 const { Input } = css
 
-export default function InputComponent() {
+export default function InputComponent(props) {
+  // Диструктуризация пропсов
+  const { placeholder, maxLength } = props
+
   return (
     <React.Fragment>
         <Input
-          placeholder='Введите сумму транзакции'
-          maxLength={30}
+          placeholder={placeholder}
+          maxLength={maxLength}
           type='text'
         />
     </React.Fragment>

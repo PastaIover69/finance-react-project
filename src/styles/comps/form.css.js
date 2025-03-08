@@ -29,6 +29,24 @@ const css = {
         :last-child {
             margin-bottom: 0;
         }
+    `,
+    Button: styled.button `
+        display: block;
+        position: relative;
+        max-width: 220px;
+        width: 100%;
+        border-radius: 4px;
+        text-align: center;
+        cursor: pointer;
+        background-color: ${props => props.backgroundColor};
+        outline: none;
+        padding: 20px;
+        border: none;
+        transition: all .3s ease;
+       
+        &:hover {
+            transform: translateY(-2px);
+        }
     `
 }
 
