@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import css from '../../styles/comps/form.css'
 
 import Head from '../views/global/Head'
