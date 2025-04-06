@@ -1,4 +1,3 @@
-Написать доку!!!
 
 # Getting Started with Create React App
 
